@@ -30,10 +30,11 @@ way[highway=residential]                             { text: name; text-color: b
 way[highway=motorway]                               { z-index: 9; color: #e55050; width: 5; casing-color: #ab5468; casing-width: 8; }
 way[highway=motorway]                               { z-index: 10; color: #ffe14c; width: 2; } /* centerline */
 way[highway=motorway_link]                           { z-index: 9; color: #e55050; width: 3; casing-color: #b89e7d; casing-width: 5; }
-way[highway=trunk],way[highway=trunk_link]          { z-index: 9; color: #e2a9a9; width: 4; casing-color: #af5959; casing-width: 6; }
-way[highway=primary],way[highway=primary_link]      { z-index: 8; color: #fbe297; width: 4; casing-color: #cf9321; casing-width: 6; }
-way[highway=secondary],way[highway=secondary_link]  { z-index: 7; color: #ffffff; width: 4; casing-color: #bebebe; casing-width: 6; }
-way[highway=tertiary],way[highway=tertiary_link],
+way[highway=trunk]                                  { z-index: 9; color: #e2a9a9; width: 4; casing-color: #af5959; casing-width: 6; }
+way[highway=trunk_link]                             { z-index: 9; color: dcbf95;  width: 3; casing-color: #b89e7d; casing-width: 4; }
+way[highway=primary]way[highway=primary_link]      { z-index: 8; color: #fbe297; width: 4; casing-color: #cf9321; casing-width: 6; }
+way[highway=secondary]way[highway=secondary_link]  { z-index: 7; color: #ffffff; width: 4; casing-color: #bebebe; casing-width: 6; }
+way[highway=tertiary]way[highway=tertiary_link],
 way[highway=unclassified],way[highway=unclassified_link],
 way[highway=residential],way[highway=residential_link],
 way[highway=service],way[highway=road]               { color: #ffffff; width: 4; casing-color: #b4b4b4; casing-width: 6; }
